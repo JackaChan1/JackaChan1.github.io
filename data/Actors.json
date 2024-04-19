@@ -1,0 +1,6 @@
+[
+null,
+{"id":1,"battlerName":"Sigma","characterIndex":0,"characterName":"Sigma","classId":1,"equips":[1,0,0,2,97],"faceIndex":0,"faceName":"Sigma","traits":[{"code":33,"dataId":0,"value":1000}],"initialLevel":5,"maxLevel":99,"name":"Jackson","nickname":"Jackson","note":"","profile":""},
+{"id":2,"battlerName":"SF_Actor1_8","characterIndex":1,"characterName":"People2","classId":2,"equips":[9,0,68,22,82],"faceIndex":1,"faceName":"People2","traits":[],"initialLevel":7,"maxLevel":99,"name":"Jane","nickname":"Jane","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"Nature_chara_MV","classId":3,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature_faces_MV","traits":[],"initialLevel":1,"maxLevel":99,"name":"ButterDog","nickname":"B-Dawg","note":"","profile":"The dog with the butter on him"}
+]
