@@ -6,55 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #content {
-            width: 70%;
-            background-color: lavender;
-            margin: auto;
+        body {
+            background-color: wheat;
         }
 
-        .smallboxes {
-            width: 40%;
-            background-color: brown;
-            margin: 10px;
+        h1 {
             text-align: center;
         }
 
-        .bigbox {
-            display: flex;
-            justify-content: space-evenly;
+        #content {
+            background-color: aqua;
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
         }
 
-        .smallboxes img {
-            width: 100%;
-            object-fit: contain;
+        #bigContainer {
+            background-color: rgb(128, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #smallContainer {
+            width: 40%;
+        }
+
+        .smallBox {
+            background-color: white;
+            margin: 10px;
+            padding: 4px;
+        }
+
+        .bigBox {
+            background-color: white;
+            margin: 10px;
+            width: 40%;
+            padding: 4px;
+        }
+
+        .allBoxes {
+            border: 1px solid black;
+            box-shadow: 5px 5px 1px black;
         }
     </style>
 </head>
 
 <body>
     <div id="content">
-        <h1 style="text-align: center;">My Website</h1>
-        <div class="bigbox">
-            <div class="smallboxes">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam unde iusto placeat explicabo nihil eius atque culpa doloremque veniam, harum commodi molestiae natus praesentium quas quibusdam, repellat recusandae ad nobis.</p>
+        <h1>Header</h1>
+        <div id="bigContainer">
+            <div id="smallContainer">
+                <div class="smallBox allBoxes">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur deserunt voluptatum
+                        cupiditate excepturi necessitatibus mollitia et voluptate architecto obcaecati amet optio totam
+                        est impedit expedita perferendis, quae laborum hic!</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Game</h2>
+                    <p>Click <a href="game/index.html" target="_blank">here</a> to play!</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Images</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi itaque porro iste? Consequatur
+                        magnam et at officia itaque eveniet maxime debitis, magni odit alias, totam culpa qui possimus
+                        earum?</p>
+                </div>
             </div>
-            <div class="smallboxes">
-                <h2>My Game</h2>
-                <P>Click <a href="/game1/index.html" target="_blank">here</a>to play my game.</P>
+            <div class="bigBox allBoxes">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quibusdam impedit reprehenderit
+                    explicabo iure est culpa nam omnis, corrupti incidunt esse sapiente vitae eaque quasi vel vero,
+                    tempora nesciunt qui.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure dolorem officiis quidem,
+                    accusamus commodi ipsum optio libero ipsa error obcaecati quasi facilis animi id, quos fugit quod.
+                    Neque, odio.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum fugiat itaque modi tenetur unde quasi
+                    dicta nisi autem suscipit voluptates nulla nostrum cumque, accusamus numquam voluptate quaerat,
+                    repellat, quo et.</p>
             </div>
         </div>
-        <div class="bigbox">
-            <div class="smallboxes">
-                <h2>Gojo Kun!</h2>
-                <img src="img/gojo1.jfif" alt="" style="transform: scalex(-1);">
-            </div>
-            <div class="smallboxes">
-                <h2>Gojo Chan~</h2>
-                <img src="img/gojo1.jfif" alt="" style="filter: invert(100%);">
-            </div>
-        </div>
-    </div>
     </div>
 </body>
 
